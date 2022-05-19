@@ -38,6 +38,31 @@ body {
     font-style: italic;
     margin-left:15px;
 }
+@media screen and (max-width:500px) {
+
+    .header p {
+        font-size:1rem;
+    }
+    .header p {
+       font-size:1.5rem; 
+    }
+}
+@media screen and (max-width:440px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header p {
+        margin-left:0;
+    }
+}
+@media screen and (max-width:398px) {
+    .header ul {
+        margin-left:0;
+    }
+}
+
 li {
     list-style: none;
 }
@@ -73,9 +98,20 @@ a:hover {
     font-family:'pacifico', sans-serif;
     margin-top:1em;
 }
+@media screen and (max-width:500px) {
+    .title {
+        font-size:3rem;
+    }
+}
 .title-desc {
     font-size:1.15rem;
+    margin:0.5em;
     font-family:'kanit', sans-serif;
+}
+@media screen and (max-width:500px) {
+    .title-desc {
+        font-size:1rem;
+    }
 }
 .btn {
     display: flex;
@@ -91,6 +127,11 @@ a:hover {
     font-family: 'Courier New', Courier, monospace;
     padding:0.2em 0.5em;
     border-radius: 0.5em;
+}
+@media screen and (max-width:500px) {
+    .btn1, .btn2 {
+        font-size:1.2rem;
+    }
 }
 
 .btn1:hover ,.btn2:hover {
