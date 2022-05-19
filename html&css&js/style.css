@@ -38,6 +38,7 @@ body {
     font-style: italic;
     margin-left:15px;
 }
+/* Delete this after */
 @media screen and (max-width:500px) {
 
     .header p {
@@ -96,6 +97,7 @@ a:hover {
     font-family:'pacifico', sans-serif;
     margin-top:1em;
 }
+/* Delete this after */
 @media screen and (max-width:500px) {
     .title {
         font-size:3rem;
@@ -194,10 +196,7 @@ a:hover {
     background-size: cover;
     flex:2 0 0%;
 }
-.img-shade {
-    height:100%;
-    background-color:rgba(0, 0, 0, 0.5);
-}
+
 .icon {
     text-align: center;
     flex:1 0 0%;
