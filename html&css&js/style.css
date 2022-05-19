@@ -41,25 +41,23 @@ body {
 @media screen and (max-width:500px) {
 
     .header p {
-        font-size:1rem;
+        font-size:1.5rem;
     }
-    .header p {
-       font-size:1.5rem; 
-    }
+
 }
-@media screen and (max-width:440px) {
+@media screen and (max-width:475px) {
     .header {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-flow: wrap row;
     }
     .header p {
-        margin-left:0;
+        margin-left:0px;
     }
 }
-@media screen and (max-width:398px) {
+@media screen and (max-width:475px) {
     .header ul {
-        margin-left:0;
+        margin-left:2em;
     }
 }
 
